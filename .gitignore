@@ -1,0 +1,32 @@
+# Virtual Environment
+# 가상 환경 폴더 (PyTorch/Jupyter 설치됨)
+venv/
+env/
+
+# Jupyter Notebook Files
+# 노트북 실행 시 생성되는 체크포인트 파일
+.ipynb_checkpoints/
+*.ipynb-checkpoints
+
+# Data & Models
+# MNIST 데이터셋이 저장되는 폴더와 학습된 모델 파일
+data/
+models/
+*.pt        # PyTorch 모델 파일
+*.pth       # PyTorch 모델 파일
+
+# Python Cache & Compiled Files
+# Python이 자동으로 생성하는 캐시 폴더
+__pycache__/
+*.pyc
+*.o
+*.so
+
+# Operating System Files
+# macOS/Windows 시스템 파일
+.DS_Store
+Thumbs.db
+
+# VS Code Files
+# VS Code 사용자 설정 파일
+.vscode/
